@@ -1,0 +1,7 @@
+{
+  "name": "confioApp",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

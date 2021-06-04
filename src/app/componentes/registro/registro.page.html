@@ -1,0 +1,22 @@
+<ion-content padding>
+    <br><br><br><br>
+    <center>
+        <font FACE="impact" SIZE=7 COLOR="black">REGISTRO</font><br><br>
+    </center>
+    <ion-item>
+      <ion-label position="floating">Correo Electronico</ion-label>
+      <ion-input  type="text" [(ngModel)]="email" name="correo"></ion-input>
+    </ion-item>
+    <br>
+    <ion-item>
+      <ion-label position="floating" >Contraseña</ion-label>
+      <ion-input  type="password" [(ngModel)]="password" name="contraseña"></ion-input>
+    </ion-item>
+    <br>
+    <br>
+    <ion-button color="secondary" expand="block" (click)="OnSubmitRegister()">REGISTRARSE</ion-button>
+    <br>
+    <center>
+        <p text-center routerLink="/login">YA TENGO CUENTA</p>
+    </center>
+</ion-content>
